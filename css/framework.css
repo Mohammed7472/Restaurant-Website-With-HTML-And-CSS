@@ -1,0 +1,141 @@
+/* Start Box */
+.d-flex {
+  display: flex;
+}
+.d-grid {
+  display: grid;
+}
+.align-center {
+  align-items: center;
+}
+.txt-c {
+  text-align: center;
+}
+/* End Box */
+
+/* Start Fonts */
+.fs-14 {
+  font-size: 14px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fs-28 {
+  font-size: 28px;
+}
+.fw-bold {
+  font-weight: bold;
+}
+/* End Fonts */
+
+/* Start Padding + Margins + + Gaps + Height  */
+.pt-20 {
+  padding-top: 20px;
+}
+.pt-30 {
+  padding-top: 30px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+.p-20 {
+  padding: 20px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.h-full {
+  height: 100%;
+}
+.w-fit {
+  width: fit-content;
+}
+.p-relative {
+  position: relative;
+}
+.rad-half {
+  border-radius: 50%;
+}
+/* End Padding + Margins */
+
+/* Start Colors */
+.c-white {
+  color: white;
+}
+.c-yellow {
+  color: #e4b95b;
+}
+.bg-yellow {
+  background-color: #e4b95b;
+}
+/* End Colors */
+
+/* Start Components */
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.between-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-shape {
+  padding: 15px 25px;
+  border-radius: 12px;
+  color: white;
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+/* End Components */
+
+@media (max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }
+  .txt-c-mobile {
+    text-align: center;
+  }
+  .hide-mobile {
+    display: none;
+  }
+}
